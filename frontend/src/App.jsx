@@ -42,7 +42,6 @@ function App() {
             style={{ display: "none" }}
             onChange={(e) => setFile(e.target.files[0])}//event listener
           />
-
           <a href={result} target='_blank'>{result}</a>
         </div>
       </div>
